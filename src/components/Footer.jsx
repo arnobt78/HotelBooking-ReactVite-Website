@@ -9,7 +9,6 @@ const Footer = () => (
       </a>
       <div className="flex flex-col items-center">
         <p>Copyright &copy; {new Date().getFullYear()}, All Right Reserved,</p>
-        <p>Cristian Mihai & Taiseen</p>
       </div>
     </div>
 
