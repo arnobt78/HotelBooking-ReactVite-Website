@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gilda+Display&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html {
+    @apply scroll-smooth scroll-pt-6;
+  }
+
+  /* 
+  🟨🟨🟨🟨🟨🟨🟨🟨🟨
+  Browser Main Scrollbar 
+  🟨🟨🟨🟨🟨🟨🟨🟨🟨
+  */
+
+  html::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  html::-webkit-scrollbar-thumb {
+    border-radius   : 2px;
+    background-color: #a37d4c;
+  }
+
+  html::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+  }
+
+  body {
+    @apply font-secondary text-primary;
+  }
+
+  input::placeholder {
+    @apply text-primary;
+  }
+
+  .h2 {
+    @apply font-primary text-[45px] mb-4;
+  }
+
+  .h3 {
+    @apply text-2xl font-primary font-semibold tracking-[1px] mb-2;
+  }
+
+  .btn {
+    @apply text-[15px] tracking-[3px] font-tertiary uppercase text-white flex-1 transition-all px-8 flex justify-center items-center;
+  }
+
+  .btn-sm {
+    @apply h-[48px];
+  }
+
+  .btn-lg {
+    @apply h-[60px];
+  }
+
+  .btn-primary {
+    @apply bg-accent hover:bg-accent-hover;
+  }
+
+  .btn-secondary {
+    @apply bg-primary hover:bg-accent;
+  }
+
+  .btn-white {
+    @apply bg-white text-[#0a0a0a];
+  }
+}
