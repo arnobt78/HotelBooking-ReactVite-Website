@@ -1,8 +1,7 @@
-> 11 - Feb - 2023
 
-# Hotel Booking - Static
+## Hotel Booking - Static
 
-## React + Tailwind CSS | [Live Link](https://hotel-booking-sites.netlify.app)
+
 
 ## This app based on - vite 
 
