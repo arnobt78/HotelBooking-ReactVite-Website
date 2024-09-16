@@ -1,7 +1,7 @@
 
 <img width="1275" alt="Screenshot 2024-09-13 at 00 01 03" src="https://github.com/user-attachments/assets/51070abc-f3ae-47ef-8bc1-e17151f075da"> ![Screenshot 2024-09-13 at 00 08 31](https://github.com/user-attachments/assets/5b984db0-c8c0-4a9a-bc25-543d30586225) <img width="1201" alt="Screenshot 2024-09-13 at 00 03 29" src="https://github.com/user-attachments/assets/4e1a4f30-ab6a-492a-8607-68963542f151"> ![Screenshot 2024-09-13 at 00 08 53](https://github.com/user-attachments/assets/edbabe77-1879-477d-8711-30bf245ff5b7)
 
-## Hotel-Booking-ReactVite-Website
+## HotelBooking-ReactVite-Website
 
 Hotel-Booking is a Static React-Vite Frontend Website, using React.js, React-Compotents, React-context API, Hooks, TailwindCSS, React Date Picker, Responsive Mobile Menu, Swiper Slider, Data Loading Spinner Effect, Scroll To Top Component, when page or location changes and deploy on Netlify.
 
